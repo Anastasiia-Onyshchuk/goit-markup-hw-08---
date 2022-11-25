@@ -12,6 +12,13 @@ body {
     color: $primary-text-color;
     background-color: $secondary-bcg-color;
     font-family: 'Roboto';
+
+
+}
+@media (min-width: 600px){
+    body{
+        background-color: aqua;
+    }
 }
 .container {
     width: 1200px;
